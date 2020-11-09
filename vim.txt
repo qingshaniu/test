@@ -1,0 +1,25 @@
+1   let mapleader=" "                                                                                                                                                                                        
+  1 syntax on
+  2 
+  3 set number
+  4 set relativenumber
+  5 set cursorline
+  6 set wrap
+  7 set showcmd
+  8 set wildmenu
+  9 set hlsearch
+ 10 exec "nohlsearch"
+ 11 set incsearch
+ 12 set ignorecase
+ 13 set smartcase
+ 14 
+ 15 
+ 16 map S :w<CR>
+ 17 map s <nop>
+ 18 map Q :q<CR>
+ 19 
+ 20 map R :source $MYVIMRC<CR>
+ 21 noremap <LEADER><CR> :nohlsearch<CR>
+ 22 
+ 23 noremap J 5j
+ 24 noremap K 5k
